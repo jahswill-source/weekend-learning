@@ -1,4 +1,5 @@
 import React from 'react'
+import pix from "./assets/bruno.png"
 
 const App = () => {
   return (
@@ -39,7 +40,7 @@ const App = () => {
 <button>Know More</button>
             </div>
             <div className="img">
-                <img src="../../Pictures/bruno.png" alt="pix"/>
+                <img src=${pix} alt="pix"/>
             </div>
         </section>
         <section id="testimonials">
