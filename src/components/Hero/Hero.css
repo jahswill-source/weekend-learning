@@ -1,0 +1,66 @@
+ .hero-section{
+    background-image: url(../../assets/flower.png);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.overlay{
+    background-color: black;
+}
+.text{
+    height: 40vh;
+    width: 60%;
+    color: aqua;
+}
+.text h1{
+    margin: 50px;
+}
+.text p{
+margin-left: 50px;
+font-size: 20px;
+}
+.text button{
+    margin-top: 20px;
+    margin-left: 40px;
+    padding: 20px;
+    background-color: brown;
+    cursor: pointer;
+    color: aqua;
+    border-radius: 50px;
+   
+}
+.text button a{
+     text-decoration: none;
+    text-emphasis-color: blue;
+}
+.text button:hover{
+    background-color: orange;
+}
+@media (max-width:768px){
+.hero-section {
+    height: 80vh;
+}
+.overlay{
+    width: 80%;
+    height: auto;
+}
+.overlay {
+    width: 90%;
+    min-width: 0;
+}
+.overlay .text h1{
+    font-size: 32px;
+}
+.overlay .text p {
+    font-size: 18px;
+}
+.overlay .text button {
+    padding: 12px 28px;
+    font-size: 16px;
+}
+}
