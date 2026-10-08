@@ -1,5 +1,4 @@
 import React from 'react'
-import './Contactus.css'
 import Header from "../components/Header/Header"
 const Contactus = () => {
   return (
