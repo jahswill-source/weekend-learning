@@ -1,7 +1,7 @@
 import React from 'react'
 import { Route, Routes} from "react-router-dom"
 import LandingPageScreen from "./pages/landingPageScren"
-import Aboutus from './pages/aboutus'
+import Aboutus from './pages/Aboutus'
 import SharpLoginDesign from './pages/Login'
 import Services from './pages/Services'
 import Contactus from './pages/Contactus'
