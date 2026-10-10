@@ -144,8 +144,8 @@ export default function SharpLoginDesign() {
 
             <Typography variant="body2" align="center" color="text.secondary" sx={{ fontSize: '0.75rem' }}>
               {'DON\'T HAVE AN ACCOUNT? '}
-              <Link href="/Register" color="inherit" sx={{ fontWeight: 700 }}>
-                REGISTER
+              <Link href="#" color="inherit" sx={{ fontWeight: 700 }}>
+                <Link to="/Register" REGISTER></Link>
               </Link>
             </Typography>
           </Box>
